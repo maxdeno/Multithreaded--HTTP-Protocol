@@ -22,7 +22,7 @@ Problem encountered:
  Web Browsers:- checking the cute.html file created on the same directory as Multithreaded web server.
  1. Chrome
     ![Image](https://github.com/user-attachments/assets/a6168cea-b18a-4557-a9ca-3941c6411552)
- 3. Internet Explorer
+ 2. Internet Explorer
     ![Image](https://github.com/user-attachments/assets/58167d58-e38c-4a09-8b55-b665f40567eb)
- 5. Firefox
+ 3. Firefox
     ![Image](https://github.com/user-attachments/assets/2bbadd2b-d69b-49fa-9544-13293add5666)
