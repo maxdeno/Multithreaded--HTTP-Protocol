@@ -17,9 +17,12 @@ Problem encountered:
  PROOF OF CONCEPT:
  
  Powershell- checking incoming connections
- <!-- Uploading "Webserver2Powershell.PNG"... -->
+    ![Image](https://github.com/user-attachments/assets/372a2427-c64d-45da-a80e-29bdff939154)
 
- Web Browsers:
+ Web Browsers:- checking the cute.html file created on the same directory as Multithreaded web server.
  1. Chrome
- 2. Internet Explorer
- 3. Firefox
+    ![Image](https://github.com/user-attachments/assets/a6168cea-b18a-4557-a9ca-3941c6411552)
+ 3. Internet Explorer
+    ![Image](https://github.com/user-attachments/assets/58167d58-e38c-4a09-8b55-b665f40567eb)
+ 5. Firefox
+    ![Image](https://github.com/user-attachments/assets/2bbadd2b-d69b-49fa-9544-13293add5666)
