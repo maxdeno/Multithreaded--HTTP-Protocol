@@ -28,3 +28,7 @@ Problem encountered:
     
  3. Firefox
     ![Image](https://github.com/user-attachments/assets/2bbadd2b-d69b-49fa-9544-13293add5666)
+
+
+
+copyright: ComputerNetworks: A Top Down Approach. Programming Assignments: Web Server Lab1
