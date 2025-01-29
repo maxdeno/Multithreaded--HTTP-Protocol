@@ -2,20 +2,34 @@
 A simple project that highlights how a server accepts and maintains multiple connections. 
 A multithread server handles multiple client request by simultaneously handling multiple threads on the same process.
 
-OPERATION:
+#✨OPERATION:
 When the server receives a TCP connection
 request from a client, it will set up the TCP connection through another port and services the client
 request in a separate thread. There will be a separate TCP connection in a separate thread for each
 request/response pair.
 
+#🚀Features:
+- Handles multiple client connections using threads.
+- Sends a simple HTML response to each client.
+- Easy to set up and run
 
-Problem encountered:
+
+#😡Problem encountered:
 1. Encoding
    The server could not encode the html file created, since it was not set in the "utf-8" format(string format)
- soln:- adding the format to the file encoding send method.
+   soln:- adding the format to the file encoding send method. `connection_socket.send("HTTP/1.1 200 ok\r\n\r\n".encode("utf-8"))`
+   @ensure the encoding style is uniform across the entire code
 
- PROOF OF CONCEPT:
+#Run the server
+  `python web2_server.py 6789`
+
+  
+#Accessing the server contents
+  on your browser url `http://<server_IP_addr>:6789/filename.html`
+
+  
  
+ #PROOF OF CONCEPT:
  Powershell- checking incoming connections
     ![Image](https://github.com/user-attachments/assets/372a2427-c64d-45da-a80e-29bdff939154)
 
