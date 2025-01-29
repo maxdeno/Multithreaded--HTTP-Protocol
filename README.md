@@ -16,9 +16,9 @@ request/response pair.
 
 ## 😡Problem encountered:
 1. Encoding
-   The server could not encode the html file created, since it was not set in the "utf-8" format(string format)<br>
-   soln:- adding the format to the file encoding send method. `connection_socket.send("HTTP/1.1 200 ok\r\n\r\n".encode("utf-8"))`
-   @ensure the encoding style is uniform across the entire code
+   - The server could not encode the html file created, since it was not set in the "utf-8" format(string format)<br>
+     soln:- adding the format to the file encoding send method. `connection_socket.send("HTTP/1.1 200 ok\r\n\r\n".encode("utf-8"))`<br>
+   - Ensure the encoding style is uniform across the entire code
 
 ## Run the server<br>
   `python web2_server.py 6789`
@@ -32,6 +32,7 @@ request/response pair.
  ## PROOF OF CONCEPT:
  Powershell:<br>
  - Checking incoming connections
+   
     ![Image](https://github.com/user-attachments/assets/372a2427-c64d-45da-a80e-29bdff939154)
 
  Web Browsers:<br>
